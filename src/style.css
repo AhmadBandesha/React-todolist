@@ -1,0 +1,52 @@
+body{
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    /* background-color: black; */
+    color: white;
+    background-image: url(./1280px-React-icon.svg.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+}
+.form{
+    width: 70%;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.input1{
+    width: 70%;
+    height: 50px;
+    background-color: black;
+    border-radius: 0 16px 0 16px;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 22px;
+    color: white;
+}
+::placeholder{
+    color: white;
+}
+input:active{
+    background-color: white;
+    border: 2px solid black;
+}
+input:active::placeholder{
+    color: black;
+}
+.inp2{
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 0 16px 0 16px;
+    padding: 15px;
+    color: white;
+
+}
